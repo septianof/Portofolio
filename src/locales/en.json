@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "firstName": "Septiano",
+    "lastName": "Ferdiansyah",
+    "description": "Informatics Engineering student focused on",
+    "keyword1": "Backend Development",
+    "connector1": ",",
+    "keyword2": "Mobile Apps",
+    "connector2": ", and exploring",
+    "keyword3": "AI/ML",
+    "ending": ".",
+    "ctaPrimary": "View Portfolio",
+    "ctaSecondary": "Contact Me"
+  },
+  "about": {
+    "label": "About Me",
+    "headingPrefix": "A Passionate",
+    "headingHighlight": "Developer",
+    "headingSuffix": "",
+    "semester": "Semester 6 · Informatics",
+    "paragraph1": "I am a 6th semester Informatics Engineering student with a deep passion for software development. My main focus is on",
+    "keyword1": "backend development",
+    "paragraph1End": "— building robust, scalable, and efficient systems.",
+    "paragraph2Start": "Additionally, I actively explore the world of",
+    "keyword2": "mobile application",
+    "paragraph2Mid": "and have a growing interest in",
+    "keyword3": "game development",
+    "paragraph2Connector": "and",
+    "keyword4": "Artificial Intelligence / Machine Learning",
+    "paragraph2End": "I believe that good code is not just code that works, but code that is easy to understand and maintain.",
+    "tags": ["Backend Dev", "Mobile Apps", "AI/ML", "Game Dev"]
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "My Tech Stack",
+    "subtitle": "Technologies I use to build real-world projects.",
+    "categories": {
+      "backend": {
+        "title": "Backend",
+        "items": ["Laravel", "Express", "Go"]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Vite"]
+      },
+      "mobile": {
+        "title": "Mobile",
+        "items": ["Flutter", "Kotlin"]
+      },
+      "other": {
+        "title": "Others",
+        "items": ["Python", "DevOps", "Git"]
+      }
+    }
+  },
+  "projects": {
+    "label": "Portfolio",
+    "title": "Featured Projects",
+    "subtitle": "A collection of projects showcasing my skills and real-world experience."
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's Collaborate",
+    "subtitle": "I'm open for discussions, project collaborations, and job opportunities. Don't hesitate to reach out!",
+    "email": "Email",
+    "emailValue": "septiano@gmail.com",
+    "linkedin": "LinkedIn",
+    "linkedinValue": "Septiano Ferdiansyah",
+    "github": "GitHub",
+    "githubValue": "septianof"
+  },
+  "footer": {
+    "copyright": "© 2026. All rights reserved."
+  }
+}

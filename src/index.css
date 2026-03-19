@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* === Fonts === */
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  /* === Accent Colors === */
+  --color-indigo: #6366F1;
+  --color-indigo-dark: #4F46E5;
+  --color-indigo-light: #818CF8;
+  --color-indigo-lighter: #A5B4FC;
+  --color-indigo-pale: #C7D2FE;
+  --color-cyan: #06B6D4;
+  --color-cyan-dark: #0891B2;
+  --color-cyan-light: #22D3EE;
+  --color-green: #10B981;
+  --color-green-light: #34D399;
+  --color-purple: #A855F7;
+  --color-purple-light: #C084FC;
+  --color-amber: #F59E0B;
+  --color-amber-light: #FBBF24;
+  --color-red: #EF4444;
+  --color-red-light: #F87171;
+  --color-blue: #3B82F6;
+  --color-blue-light: #60A5FA;
+}
+
+/* === Base Styles === */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Global Transitions === */
+*, *::before, *::after {
+  transition-property: color, background-color, border-color, box-shadow, opacity, transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Opt-out for elements that shouldn't animate */
+input, textarea, select, button:active, a:active {
+  transition-duration: 150ms;
+}
+
+/* Smooth scroll offset for fixed navbar */
+html {
+  scroll-padding-top: 80px;
+}
+
+/* === Hero Background === */
+:root {
+  --hero-bg: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 50%, #EEF2FF 100%);
+}
+
+.dark {
+  --hero-bg: linear-gradient(135deg, #0F172A 0%, #1E1B4B 50%, #0F172A 100%);
+}
+
+/* === Fade-in animation for sections === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+/* === Selection === */
+::selection {
+  background-color: #6366F140;
+  color: inherit;
+}
+
+/* === Scrollbar === */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6366F140;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6366F180;
+}

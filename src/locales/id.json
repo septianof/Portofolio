@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "greeting": "Halo, saya",
+    "firstName": "Septiano",
+    "lastName": "Ferdiansyah",
+    "description": "Mahasiswa Teknik Informatika yang fokus pada",
+    "keyword1": "Backend Development",
+    "connector1": ",",
+    "keyword2": "Mobile Apps",
+    "connector2": ", dan eksplorasi",
+    "keyword3": "AI/ML",
+    "ending": ".",
+    "ctaPrimary": "Lihat Portofolio",
+    "ctaSecondary": "Hubungi Saya"
+  },
+  "about": {
+    "label": "Tentang Saya",
+    "headingPrefix": "Seorang",
+    "headingHighlight": "Developer",
+    "headingSuffix": "yang Passionate",
+    "semester": "Semester 6 · Informatika",
+    "paragraph1": "Saya adalah mahasiswa Teknik Informatika semester 6 yang memiliki minat besar dan mendalam di dunia pengembangan perangkat lunak. Fokus utama saya ada pada",
+    "keyword1": "backend development",
+    "paragraph1End": "— membangun sistem yang kuat, scalable, dan efisien.",
+    "paragraph2Start": "Selain itu, saya juga aktif mengeksplorasi dunia",
+    "keyword2": "mobile application",
+    "paragraph2Mid": "dan memiliki ketertarikan yang terus berkembang di bidang",
+    "keyword3": "game development",
+    "paragraph2Connector": "dan",
+    "keyword4": "Artificial Intelligence / Machine Learning",
+    "paragraph2End": "Saya percaya bahwa kode yang baik adalah kode yang bukan hanya berjalan, tetapi juga mudah dipahami dan dirawat.",
+    "tags": ["Backend Dev", "Mobile Apps", "AI/ML", "Game Dev"]
+  },
+  "skills": {
+    "label": "Keahlian",
+    "title": "Tech Stack Saya",
+    "subtitle": "Teknologi yang saya gunakan dalam mengembangkan proyek-proyek nyata.",
+    "categories": {
+      "backend": {
+        "title": "Backend",
+        "items": ["Laravel", "Express", "Go"]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Vite"]
+      },
+      "mobile": {
+        "title": "Mobile",
+        "items": ["Flutter", "Kotlin"]
+      },
+      "other": {
+        "title": "Lainnya",
+        "items": ["Python", "DevOps", "Git"]
+      }
+    }
+  },
+  "projects": {
+    "label": "Portofolio",
+    "title": "Proyek Pilihan",
+    "subtitle": "Koleksi proyek yang menunjukkan kemampuan dan pengalaman nyata saya."
+  },
+  "contact": {
+    "label": "Kontak",
+    "title": "Mari Berkolaborasi",
+    "subtitle": "Saya terbuka untuk diskusi, kolaborasi proyek, maupun kesempatan kerja. Jangan ragu untuk menghubungi saya!",
+    "email": "Email",
+    "emailValue": "septiano@gmail.com",
+    "linkedin": "LinkedIn",
+    "linkedinValue": "Septiano Ferdiansyah",
+    "github": "GitHub",
+    "githubValue": "septianof"
+  },
+  "footer": {
+    "copyright": "© 2026. All rights reserved."
+  }
+}
