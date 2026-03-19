@@ -134,6 +134,8 @@ export default function ProjectsSection() {
               <div className="flex mt-1 gap-2.5">
                 <a
                   href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex-1 flex items-center justify-center rounded-[10px] gap-1.5 p-2.5 border border-solid dark:bg-[#6366F11A] bg-[#EEF2FF] dark:border-[#6366F140] border-[#C7D2FE] transition-colors duration-200 hover:dark:bg-[#6366F133] hover:bg-[#E0E7FF]"
                 >
                   <GitHubIcon color={theme === 'dark' ? '#818CF8' : '#4F46E5'} />
@@ -144,6 +146,8 @@ export default function ProjectsSection() {
                 {project.live && (
                   <a
                     href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex-1 flex items-center justify-center rounded-[10px] gap-1.5 p-2.5 border border-solid dark:bg-[#06B6D414] bg-[#ECFEFF] dark:border-[#06B6D433] border-[#A5F3FC] transition-colors duration-200 hover:dark:bg-[#06B6D426] hover:bg-[#CFFAFE]"
                   >
                     <LinkIcon color={theme === 'dark' ? '#22D3EE' : '#0891B2'} />

@@ -54,14 +54,14 @@ export default function ContactSection() {
       icon: <LinkedInIcon color={theme === 'dark' ? '#3B82F6' : '#2563EB'} />,
       label: t('contact.linkedin'),
       value: t('contact.linkedinValue'),
-      href: '#',
+      href: t('contact.linkedinLink'),
       style: 'linkedin',
     },
     {
       icon: <GitHubIcon color={theme === 'dark' ? '#E2E8F0' : '#374151'} />,
       label: t('contact.github'),
       value: t('contact.githubValue'),
-      href: '#',
+      href: t('contact.githubLink'),
       style: 'github',
     },
   ]
@@ -127,6 +127,8 @@ export default function ContactSection() {
             <a
               key={contact.label}
               href={contact.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center w-full sm:w-[calc(50%-8px)] md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] rounded-[14px] py-4.5 px-6 gap-3.5 transition-transform duration-200 hover:scale-[1.02] no-underline cursor-pointer"
               style={cardStyles}
             >

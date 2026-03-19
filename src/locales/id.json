@@ -70,11 +70,13 @@
     "title": "Mari Berkolaborasi",
     "subtitle": "Saya terbuka untuk diskusi, kolaborasi proyek, maupun kesempatan kerja. Jangan ragu untuk menghubungi saya!",
     "email": "Email",
-    "emailValue": "septiano@gmail.com",
+    "emailValue": "tiokovo03@gmail.com",
     "linkedin": "LinkedIn",
     "linkedinValue": "Septiano Ferdiansyah",
+    "linkedinLink": "https://www.linkedin.com/in/septiano-ferdiansyah-04b758378",
     "github": "GitHub",
-    "githubValue": "septianof"
+    "githubValue": "septianof",
+    "githubLink": "https://github.com/septianof"
   },
   "footer": {
     "copyright": "© 2026. All rights reserved."
